@@ -1,0 +1,5 @@
+names = ["Ana", "Benjamin", "Chloé"]
+lengths = {name: len(name) for name in names}
+long_names = [name for name in names if len(name) > 3]
+print(lengths)
+print(long_names)
